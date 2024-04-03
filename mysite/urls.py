@@ -23,4 +23,3 @@ urlpatterns = [
     path('users/update/<str:pk>', views.updateUser),
     path('users/delete/<str:pk>', views.deleteUser),
 ]
-
